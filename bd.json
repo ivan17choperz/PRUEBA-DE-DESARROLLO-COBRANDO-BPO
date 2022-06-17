@@ -1,0 +1,28 @@
+{
+    // users
+  "nombre_usuario": "frank_blog",
+  "cuenta_twitter": "@fran123",
+  "nombre": "frank",
+  "descripcion": "el es franks y hace blogs",
+  "telefonos": [{ "telefono": "111111111" }],
+  "direccion": {
+    "calle": "texto",
+    "numero":"texto",
+    "ciudad":"texto",
+    "cp":"39005"
+  },
+  // coleccion de comentarios 
+  {
+      "fecha":newDate(),
+      "cuerpo":"text cuerpo"
+  
+  },
+  
+  // noticias
+  {
+      titulo:"text",
+      cuerpo:"string",
+      fecha:newDate(),
+      tegs:[]
+  }
+}
